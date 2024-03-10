@@ -1,0 +1,47 @@
+body{
+    
+    display:flex;
+    justify-content: center;
+}
+
+.container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    border-color: rgb(35, 44, 67);
+    background-color: rgba(135, 171, 255, 0.153);
+    height: 300px;
+}
+
+#counter{
+    margin: 10px;
+    font-family: verdana;
+    font-size: 120px;
+}
+
+
+.myButton{
+    margin: 10px 5px;
+    padding: 10px;
+    height: 40px;
+    width: 105px;
+    border: none ;
+    border-radius: 5px;
+    background-color: rgb(101, 148, 255);
+    font-family: verdana;
+    font-weight: 700;
+    font-size: 90%;
+    color: rgb(255, 255, 255);
+    transition: background-color 0.15s;
+    
+}
+
+.myButton:hover{
+    cursor: pointer;
+    background-color: rgb(20, 90, 255);
+}
+
